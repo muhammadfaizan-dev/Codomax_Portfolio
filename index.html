@@ -16,8 +16,12 @@
 
 <body>
 
-    <!--  HEADER START  -->
+    <!-- LOADING ANIMATION -->
+    <div class="loading" id="loading">
+        <div class="loader"></div>
+    </div>
 
+    <!-- HEADER START -->
     <header>
 
         <div>
@@ -42,23 +46,25 @@
 
                 <li><a href="#education">Education</a></li>
 
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#experience">Experience</a></li>
+
+                <li><a href="#resume">Resume</a></li>
+
                 <li><a href="#contact">Contact</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#experience">Experience</a></li>
-<li><a href="#resume">Resume</a></li>
+
             </ul>
 
         </nav>
 
     </header>
 
-    <!--  HEADER END  -->
-
+    <!-- HEADER END -->
 
     <main>
 
-        <!--  HOME SECTION  -->
-
+        <!-- HOME SECTION -->
         <section id="home">
 
             <h2>Welcome To My Portfolio</h2>
@@ -82,16 +88,14 @@
 
         </section>
 
-        <!--  HOME END  -->
+        <!-- HOME END -->
 
-
-        <!--  HERO SECTION  -->
-
+        <!-- HERO SECTION -->
         <section id="hero">
 
             <article>
 
-                <h2>Hello, I'm Muhammad Faizan 👋</h2>
+                <h2>Hello, I'm Muhammad Faizan </h2>
 
                 <h3>
                     Web Development Intern
@@ -124,11 +128,11 @@
 
                 </ul>
 
-                <button>
+                <button class="btn-primary">
                     Download Resume
                 </button>
 
-                <button>
+                <button class="btn-secondary">
                     Contact Me
                 </button>
 
@@ -136,11 +140,9 @@
 
         </section>
 
-        <!--  HERO END  -->
+        <!-- HERO END -->
 
-
-        <!--  ABOUT SECTION  -->
-
+        <!-- ABOUT SECTION -->
         <section id="about">
 
             <h2>About Me</h2>
@@ -157,144 +159,166 @@
 
         </section>
 
-        <!--  SKILLS SECTION  -->
+        <!-- ABOUT END -->
 
+        <!-- SKILLS SECTION -->
         <section id="skills">
 
             <h2>My Skills</h2>
 
             <ul>
 
-                <li>HTML5</li>
+                <li>💻 HTML5</li>
 
-                <li>CSS3 (Learning)</li>
+                <li>🎨 CSS3 (Learning)</li>
 
-                <li>JavaScript (Learning)</li>
+                <li>⚡ JavaScript (Learning)</li>
 
-                <li>Git & GitHub</li>
+                <li>🔧 Git & GitHub</li>
 
-                <li>Responsive Web Design</li>
+                <li>📱 Responsive Web Design</li>
 
-                <li>Problem Solving</li>
+                <li>🧠 Problem Solving</li>
 
             </ul>
 
         </section>
-  <!-- 
-     PROJECTS SECTION
- -->
 
-<section id="projects">
+        <!-- SKILLS END -->
 
-    <h2>My Projects</h2>
+        <!-- PROJECTS SECTION -->
+        <section id="projects">
 
-    <div class="project-container">
+            <h2>My Projects</h2>
 
-        <!-- Project 1 -->
+            <div class="project-container">
 
-        <article class="project-card">
+                <!-- Project 1 -->
 
-            <h3>Personal Portfolio</h3>
+                <article class="project-card card-3d">
+
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        A responsive portfolio website developed using HTML, CSS,
+                        JavaScript, Flexbox and CSS Grid.
+                    </p>
+
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">JavaScript</span>
+
+                    <br>
+
+                    <button class="btn-success">Live Demo</button>
+                    <button class="btn-secondary">GitHub</button>
+
+                </article>
+
+                <!-- Project 2 -->
+
+                <article class="project-card card-3d">
+
+                    <h3>Student Management System</h3>
+
+                    <p>
+                        A student management interface developed using HTML,
+                        CSS and JavaScript.
+                    </p>
+
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">JavaScript</span>
+
+                    <br>
+
+                    <button class="btn-success">Live Demo</button>
+                    <button class="btn-secondary">GitHub</button>
+
+                </article>
+
+                <!-- Project 3 -->
+
+                <article class="project-card card-3d">
+
+                    <h3>Landing Page</h3>
+
+                    <p>
+                        A modern responsive landing page designed with HTML5,
+                        CSS3 and responsive layout techniques.
+                    </p>
+
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">Flexbox</span>
+
+                    <br>
+
+                    <button class="btn-success">Live Demo</button>
+                    <button class="btn-secondary">GitHub</button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- PROJECTS END -->
+
+        <!-- RESUME SECTION -->
+        <section id="resume">
+
+            <h2>Resume</h2>
 
             <p>
-                A responsive portfolio website developed using HTML, CSS,
-                JavaScript, Flexbox and CSS Grid.
+                Download my latest resume to learn more about my education,
+                technical skills, internship experience, and projects.
             </p>
 
-            <button>Live Demo</button>
-            <button>GitHub</button>
+            <a href="resume.pdf" download>
+                <button class="btn-primary pulse">📄 Download Resume</button>
+            </a>
 
-        </article>
+        </section>
 
-        <!-- Project 2 -->
+        <!-- RESUME END -->
 
-        <article class="project-card">
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience">
 
-            <h3>Student Management System</h3>
+            <h2>Experience</h2>
 
-            <p>
-                A student management interface developed using HTML,
-                CSS and JavaScript.
-            </p>
+            <div class="timeline">
 
-            <button>Live Demo</button>
-            <button>GitHub</button>
+                <div class="timeline-item">
 
-        </article>
+                    <h4>Web Development Intern</h4>
 
-        <!-- Project 3 -->
+                    <span>Codomax Digital Solutions | 2026</span>
 
-        <article class="project-card">
+                    <ul>
 
-            <h3>Landing Page</h3>
+                        <li>Developing a responsive personal portfolio website.</li>
 
-            <p>
-                A modern responsive landing page designed with HTML5,
-                CSS3 and responsive layout techniques.
-            </p>
+                        <li>Learning HTML5, CSS3 and JavaScript.</li>
 
-            <button>Live Demo</button>
-            <button>GitHub</button>
+                        <li>Using Git and GitHub for version control.</li>
 
-        </article>
+                        <li>Creating responsive layouts with Flexbox and CSS Grid.</li>
 
-    </div>
+                        <li>Building professional frontend projects.</li>
 
-</section>
-<!-- 
-     RESUME SECTION
- -->
+                    </ul>
 
-<section id="resume">
+                </div>
 
-    <h2>Resume</h2>
+            </div>
 
-    <p>
-        Download my latest resume to learn more about my education,
-        technical skills, internship experience, and projects.
-    </p>
+        </section>
 
-    <a href="resume.pdf" download>
-        <button>Download Resume</button>
-    </a>
+        <!-- EXPERIENCE END -->
 
-</section>
-<!-- 
-     EXPERIENCE SECTION
- -->
-
-<section id="experience">
-
-    <h2>Experience</h2>
-
-    <article>
-
-        <h3>Web Development Intern</h3>
-
-        <h4>Codomax Digital Solutions</h4>
-
-        <p>Duration: 14 Days Internship</p>
-
-        <ul>
-
-            <li>Developing a responsive personal portfolio website.</li>
-
-            <li>Learning HTML5, CSS3 and JavaScript.</li>
-
-            <li>Using Git and GitHub for version control.</li>
-
-            <li>Creating responsive layouts with Flexbox and CSS Grid.</li>
-
-            <li>Building professional frontend projects.</li>
-
-        </ul>
-
-    </article>
-
-</section>
-
-        <!--  EDUCATION SECTION  -->
-
+        <!-- EDUCATION SECTION -->
         <section id="education">
 
             <h2>Education</h2>
@@ -305,6 +329,8 @@
 
                 <p>Government College</p>
 
+                <span class="badge">Completed</span>
+
             </article>
 
             <article>
@@ -313,76 +339,80 @@
 
                 <p>Codomax Digital Solutions</p>
 
+                <span class="badge badge-success">Ongoing</span>
+
             </article>
 
         </section>
 
-        <!--  CONTACT SECTION  -->
+        <!-- EDUCATION END -->
 
-       <!-- =========================
-     CONTACT SECTION
-========================= -->
+        <!-- CONTACT SECTION -->
+        <section id="contact">
 
-<section id="contact">
+            <h2>Contact Me</h2>
 
-    <h2>Contact Me</h2>
+            <p>
+                Feel free to contact me for internships, freelance work,
+                collaborations, or any web development projects.
+            </p>
 
-    <p>
-        Feel free to contact me for internships, freelance work,
-        collaborations, or any web development projects.
-    </p>
+            <form id="contactForm">
 
-    <form id="contactForm">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" placeholder="Enter your full name" required>
 
-        <label for="fullname">Full Name</label>
-        <input type="text" id="fullname" placeholder="Enter your full name" required>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
 
-        <label for="email">Email Address</label>
-        <input type="email" id="email" placeholder="Enter your email" required>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Enter subject" required>
 
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" placeholder="Enter subject" required>
+                <label for="message">Message</label>
+                <textarea id="message" rows="6" placeholder="Write your message" required></textarea>
 
-        <label for="message">Message</label>
-        <textarea id="message" rows="6" placeholder="Write your message" required></textarea>
+                <button type="submit" class="btn-primary">📤 Send Message</button>
 
-        <button type="submit">Send Message</button>
+            </form>
 
-    </form>
-    
+        </section>
 
-</section>
-<section id="social">
+        <!-- CONTACT END -->
 
-    <h2>Connect With Me</h2>
+        <!-- SOCIAL LINKS SECTION -->
+        <section id="social">
 
-    <ul>
+            <h2>Connect With Me</h2>
 
-        <li>
-            <a href="https://github.com/yourusername" target="_blank">
-                GitHub
-            </a>
-        </li>
+            <ul>
 
-        <li>
-            <a href="https://linkedin.com/in/yourusername" target="_blank">
-                LinkedIn
-            </a>
-        </li>
+                <li>
+                    <a href="https://github.com/yourusername" target="_blank" data-tooltip="View my GitHub">
+                        🐙 GitHub
+                    </a>
+                </li>
 
-        <li>
-            <a href="mailto:your@email.com">
-                Email
-            </a>
-        </li>
+                <li>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" data-tooltip="Connect on LinkedIn">
+                        🔗 LinkedIn
+                    </a>
+                </li>
 
-    </ul>
+                <li>
+                    <a href="mailto:muhammadfaizan@email.com" data-tooltip="Send me an email">
+                        📧 Email
+                    </a>
+                </li>
 
-</section>
+            </ul>
+
+        </section>
+
+        <!-- SOCIAL END -->
+
     </main>
 
-    <!--  FOOTER  -->
-
+    <!-- FOOTER -->
     <footer>
 
         <hr>
@@ -392,13 +422,21 @@
         </p>
 
         <p>
-            Email:
-            muhammadfaizan@email.com
+            📧 muhammadfaizan@email.com
+        </p>
+
+        <p style="color:#64748b; font-size:12px; margin-top:5px;">
+            Built with during Web Development Internship at Codomax Digital Solutions
         </p>
 
     </footer>
-    <button id="topBtn">⬆ Top</button>
-<script src="script.js"></script>
+
+    <!-- SCROLL TO TOP BUTTON -->
+    <button id="topBtn" class="pulse">⬆ Top</button>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
 </body>
 
 </html>
