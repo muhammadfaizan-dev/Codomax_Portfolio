@@ -1,0 +1,196 @@
+/* =========================
+   GOOGLE FONT
+========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* =========================
+   RESET
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* =========================
+   BODY
+========================= */
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#f5f7fa;
+
+    color:#222;
+
+    line-height:1.8;
+
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header{
+
+    background:#0f172a;
+
+    color:white;
+
+    padding:20px 10%;
+
+}
+
+/* =========================
+   NAME
+========================= */
+
+header h1{
+
+    font-size:35px;
+
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+    gap:20px;
+
+    margin-top:20px;
+
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:500;
+
+}
+
+nav a:hover{
+
+    color:#38bdf8;
+
+}
+
+/* =========================
+   ALL SECTIONS
+========================= */
+
+section{
+
+    padding:60px 10%;
+
+}
+
+/* =========================
+   HEADINGS
+========================= */
+
+h2{
+
+    color:#0f172a;
+
+    margin-bottom:20px;
+
+}
+
+/* =========================
+   PARAGRAPH
+========================= */
+
+p{
+
+    margin-bottom:15px;
+
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+button{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 28px;
+
+    cursor:pointer;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    margin-top:15px;
+
+}
+
+button:hover{
+
+    background:#1d4ed8;
+
+}
+
+/* =========================
+   SKILLS
+========================= */
+
+#skills ul{
+
+    margin-left:20px;
+
+}
+
+/* =========================
+   CONTACT FORM
+========================= */
+
+input,
+textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:10px;
+
+    margin-bottom:20px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+
+    background:#0f172a;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+}
