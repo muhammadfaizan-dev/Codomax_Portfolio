@@ -62,3 +62,12 @@ form.addEventListener("submit", function(event){
     form.reset();
 
 });
+// 
+// PAGE LOADED
+// 
+
+window.addEventListener("load",()=>{
+
+    console.log("Portfolio Loaded Successfully");
+
+});
