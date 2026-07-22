@@ -47,3 +47,18 @@ topBtn.onclick = function () {
     });
 
 };
+/* 
+   CONTACT FORM VALIDATION
+ */
+
+const form = document.getElementById("contactForm");
+
+form.addEventListener("submit", function(event){
+
+    event.preventDefault();
+
+    alert("Thank you! Your message has been submitted successfully.");
+
+    form.reset();
+
+});

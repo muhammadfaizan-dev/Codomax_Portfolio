@@ -474,3 +474,44 @@ footer hr{
     margin-bottom:10px;
 
 }
+/* 
+   SOCIAL LINKS
+ */
+
+#social{
+
+    text-align:center;
+
+    margin-top:50px;
+
+}
+
+#social ul{
+
+    list-style:none;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+#social a{
+
+    text-decoration:none;
+
+    color:#2563eb;
+
+    font-weight:600;
+
+}
+
+#social a:hover{
+
+    color:#0f172a;
+
+}

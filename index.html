@@ -319,43 +319,66 @@
 
         <!--  CONTACT SECTION  -->
 
-        <section id="contact">
+       <!-- =========================
+     CONTACT SECTION
+========================= -->
 
-            <h2>Contact Me</h2>
+<section id="contact">
 
-            <form>
+    <h2>Contact Me</h2>
 
-                <label>Full Name</label>
+    <p>
+        Feel free to contact me for internships, freelance work,
+        collaborations, or any web development projects.
+    </p>
 
-                <br>
+    <form id="contactForm">
 
-                <input type="text" placeholder="Enter your name">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" placeholder="Enter your full name" required>
 
-                <br><br>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
 
-                <label>Email</label>
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" placeholder="Enter subject" required>
 
-                <br>
+        <label for="message">Message</label>
+        <textarea id="message" rows="6" placeholder="Write your message" required></textarea>
 
-                <input type="email" placeholder="Enter your email">
+        <button type="submit">Send Message</button>
 
-                <br><br>
+    </form>
+    
 
-                <label>Message</label>
+</section>
+<section id="social">
 
-                <br>
+    <h2>Connect With Me</h2>
 
-                <textarea rows="5" cols="40"
-                    placeholder="Write your message"></textarea>
+    <ul>
 
-                <br><br>
+        <li>
+            <a href="https://github.com/yourusername" target="_blank">
+                GitHub
+            </a>
+        </li>
 
-                <button type="submit">Send Message</button>
+        <li>
+            <a href="https://linkedin.com/in/yourusername" target="_blank">
+                LinkedIn
+            </a>
+        </li>
 
-            </form>
+        <li>
+            <a href="mailto:your@email.com">
+                Email
+            </a>
+        </li>
 
-        </section>
+    </ul>
 
+</section>
     </main>
 
     <!--  FOOTER  -->
