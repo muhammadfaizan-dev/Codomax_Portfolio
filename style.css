@@ -427,3 +427,50 @@ footer hr{
     margin-top:15px;
 
 }
+/* =========================
+   RESUME SECTION
+========================= */
+
+#resume{
+
+    text-align:center;
+
+}
+
+#resume button{
+
+    margin-top:20px;
+
+}
+
+/* =========================
+   EXPERIENCE SECTION
+========================= */
+
+#experience article{
+
+    background:#ffffff;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+    margin-top:20px;
+
+}
+
+#experience ul{
+
+    margin-left:20px;
+
+    margin-top:15px;
+
+}
+
+#experience li{
+
+    margin-bottom:10px;
+
+}
