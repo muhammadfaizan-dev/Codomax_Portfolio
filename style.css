@@ -1,6 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* 
+   SMOOTH SCROLL
+ */
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* 
+   SECTION ANIMATION
+ */
+
+section{
+
+    animation:fadeIn 1s ease-in-out;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:translateY(0);
+
+    }
+
+}
+
+/* 
    RESET
  */
 
@@ -73,13 +109,15 @@ nav a{
 
     font-weight:600;
 
-    transition:.3s;
+    transition:0.3s;
 
 }
 
 nav a:hover{
 
     color:#38bdf8;
+
+    transform:scale(1.05);
 
 }
 
@@ -155,11 +193,17 @@ button{
 
     margin-top:15px;
 
+    transition:0.3s ease;
+
 }
 
 button:hover{
 
     background:#1d4ed8;
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
 
 }
 
@@ -197,6 +241,16 @@ button:hover{
 
     text-align:center;
 
+    transition:0.4s;
+
+}
+
+#skills li:hover{
+
+    transform:translateY(-10px) scale(1.02);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.2);
+
 }
 
 /* 
@@ -225,6 +279,19 @@ textarea{
     border-radius:8px;
 
     font-family:'Poppins',sans-serif;
+
+    transition:0.3s;
+
+}
+
+input:focus,
+textarea:focus{
+
+    border:2px solid #2563eb;
+
+    outline:none;
+
+    box-shadow:0 0 0 3px rgba(37,99,235,.1);
 
 }
 
@@ -266,6 +333,9 @@ footer hr{
 
 }
 
+/* 
+   RESPONSIVE DESIGN - TABLET & MOBILE
+ */
 
 @media (max-width:768px){
 
@@ -309,7 +379,9 @@ footer hr{
 
 }
 
-
+/* 
+   SMALL MOBILE
+ */
 
 @media (max-width:480px){
 
@@ -345,7 +417,10 @@ footer hr{
     }
 
 }
-/* Scroll To Top Button */
+
+/* 
+   SCROLL TO TOP BUTTON
+ */
 
 #topBtn{
 
@@ -371,13 +446,20 @@ footer hr{
 
     font-size:18px;
 
+    transition:0.3s;
+
 }
 
 #topBtn:hover{
 
     background:#1d4ed8;
 
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+
 }
+
 /* 
    PROJECTS
  */
@@ -404,13 +486,15 @@ footer hr{
 
     box-shadow:0 5px 15px rgba(0,0,0,.1);
 
-    transition:.3s;
+    transition:0.4s;
 
 }
 
 .project-card:hover{
 
-    transform:translateY(-8px);
+    transform:translateY(-10px) scale(1.02);
+
+    box-shadow:0 15px 30px rgba(0,0,0,.2);
 
 }
 
@@ -427,9 +511,10 @@ footer hr{
     margin-top:15px;
 
 }
-/* =========================
+
+/* 
    RESUME SECTION
-========================= */
+ */
 
 #resume{
 
@@ -443,9 +528,9 @@ footer hr{
 
 }
 
-/* =========================
+/* 
    EXPERIENCE SECTION
-========================= */
+ */
 
 #experience article{
 
@@ -458,6 +543,16 @@ footer hr{
     box-shadow:0 5px 15px rgba(0,0,0,.1);
 
     margin-top:20px;
+
+    transition:0.3s;
+
+}
+
+#experience article:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
 
 }
 
@@ -474,6 +569,7 @@ footer hr{
     margin-bottom:10px;
 
 }
+
 /* 
    SOCIAL LINKS
  */
@@ -508,10 +604,14 @@ footer hr{
 
     font-weight:600;
 
+    transition:0.3s;
+
 }
 
 #social a:hover{
 
     color:#0f172a;
+
+    transform:scale(1.1);
 
 }
